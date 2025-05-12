@@ -45,7 +45,7 @@ def generate_ics_file(events, output_file):
         f.write("BEGIN:VCALENDAR\n")
         f.write("VERSION:2.0\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\n")
         f.write("PRODID:-//Malayalam Holidays//Calendar//ML\n")
-        f.write("X-WR-CALNAME:Malayalam Panchangam\n")
+        f.write("X-WR-CALNAME:സനാതനി ആഘോഷങ്ങൾ\n")
         f.write("X-WR-TIMEZONE:Asia/Kolkata\n")
         f.write("BEGIN:VTIMEZONE\n")
         f.write("TZID:Asia/Kolkata\n")
